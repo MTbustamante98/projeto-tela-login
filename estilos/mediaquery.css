@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 543px) and (max-width: 768px) {
+  body {
+    background: var(--cor2);
+    position: relative;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #F5F5F5;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.box-information {
+  position: relative;
+  background-color: #0EB3A4;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.itens {
+  position: absolute;
+  top: 140px;
+  left: 10px;
+}
+
+.tittle-main {
+  font-size: 2.5em;
+  font-weight: bolder;
+  letter-spacing: -1.5px;
+  color: #E2FBF2;
+  text-align: center;
+}
+
+.paragraph-information {
+  font: Normal lighter 11px Helvetica, sans-serif;
+  text-align: center;
+  line-height: 15px;
+  color: #87CCBF;
+}
+
+}
